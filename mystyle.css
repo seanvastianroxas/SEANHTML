@@ -22,6 +22,18 @@
 		font-family: ValorantFont;
 		font-size: 20px;
 		}
+		.class5{
+		text-align: center;
+		color:black;
+		font-family: ValorantFont;
+		font-size: 20px;
+		}
+		.class6{
+		text-align: justify;
+		color:black;
+		font-family: ValorantFont;
+		font-size: 20px;
+		}
 		.videofit{
 		object-fit:fill;
 		}
@@ -73,6 +85,18 @@
 			transform:scale(1.5);
 			opacity: 100%;
 		}
+		.agem{}
+
+		.agem img{
+			transition:1s;
+			opacity: 100%;
+
+		}
+		.agem img:hover{
+			float:center;
+			transform:scale(1.5);
+			opacity: 100%;
+		}
 
 		.maps{
 
@@ -106,6 +130,20 @@
   			padding: 15px; 
   			border-radius: 10px; 
   		}
+
+  		.storeimg{
+  			margin-left: 0%;
+  		}
+
+		.store img{
+			transition:1s;
+			opacity: 100%;}
+
+		.store img:hover{
+			float:center;
+			transform:scale(2);
+			opacity: 100%;
+		}
 body{
 	background-color: #D3D3D3;
 	background-size: 100%;
