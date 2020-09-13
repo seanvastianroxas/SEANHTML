@@ -37,6 +37,34 @@
 		.videofit{
 		object-fit:fill;
 		}
+		.class7{
+			text-align: center;
+			color:white;
+		 	font-family: ValorantFont;
+		 	font-size: 100px;
+		}
+		.class8{
+			text-align: center;
+			color:white;
+		 	font-family: ValorantFont;
+		 	font-size: 40px;
+		}
+
+		.class9{
+			border-style: solid;
+			border-width: 2px;
+			border-spacing: 20px;
+			background-color: #221714;
+			text-align: center;
+			color:white;
+		 	font-family: ValorantFont;
+		 	font-size: 50px;
+		 	 padding-top: 15px;
+  			 padding-right: 15px;
+ 			 padding-bottom: 15px;
+ 			 padding-left: 15px;
+		}
+
 
 		.headmain{
 			float: left;
@@ -144,6 +172,37 @@
 			transform:scale(2);
 			opacity: 100%;
 		}
+
+		.centered {
+  			position: absolute;
+ 			top: 50%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+		}
+		.centered a{
+		  	position: absolute;
+ 			top: 90%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+
+		}
+
+		.centered a:hover{
+			border-style: solid;
+			border-width: 2px;
+			border-spacing: 20px;
+			background-color: #7C333C;
+			text-align: center;
+			color:white;
+		 	font-family: ValorantFont;
+		 	font-size: 50px;
+		 	 padding-top: 15px;
+  			 padding-right: 15px;
+ 			 padding-bottom: 15px;
+ 			 padding-left: 15px;
+		}
+
+
 body{
 	background-color: #D3D3D3;
 	background-size: 100%;
